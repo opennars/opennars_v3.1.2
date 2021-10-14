@@ -197,9 +197,9 @@ public final class CompositionalRules {
             }
             processComposed(taskContent, termDif, (Term) componentCommon.clone(), truthDif, order, memory);
         }
-        /*if (taskContent instanceof Inheritance) {
+        if (taskContent instanceof Inheritance) {
             introVarOuter(taskContent, beliefContent, index, order, memory);//            introVarImage(taskContent, beliefContent, index, memory);
-        }*/
+        }
     }
 
     /**
